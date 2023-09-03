@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/pizzaico.ico">
+    <link rel="stylesheet" href="stylemenu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Restaurante GourmetDelights</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary m-auto col-11 navbar-shadow">
+        <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/pizza.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="menuhome">
+        <div class="col-11">
+            <h2>Cardápio</h2>
+            <p>Delícias Gourmet, Uma Fatia de Sabor em Cada Mordida!</p>
+        </div>
+    </div>
+    <br>
+
+    <div class="accordion col-11 m-auto" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Pizzas
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <!--CARDS INICIO-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/pizza-margherita-1.png" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Margherita</h5>
+                                    <p class="card-text">Uma pizza simples, com molho de tomate, mussarela de búfala,
+                                        folhas de manjericão fresco e azeite de oliva. É uma das pizzas mais
+                                        tradicionais da Itália.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/receitas-de-pizza-de-pepperoni-0.jpg" class="card-img-top" width="100%"
+                                    height="300" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Pepperoni</h5>
+                                    <p class="card-text">Esta é uma pizza clássica nos Estados Unidos, com molho de
+                                        tomate, queijo mussarela e generosas fatias de pepperoni (salame picante).</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/pizza-de-4-queijos.jpg" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Quatro Queijos</h5>
+                                    <p class="card-text">Uma pizza com uma mistura de quatro queijos diferentes, como
+                                        mussarela, gorgonzola, provolone e parmesão. É uma escolha popular para os
+                                        amantes de queijo.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/calabresa.jpg" class="card-img-top" width="100%" height="300" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Calabresa</h5>
+                                    <p class="card-text">Uma pizza com molho de tomate, queijo mussarela e linguiça
+                                        calabresa fatiada. Pode ser picante, dependendo da quantidade de pimenta
+                                        utilizada.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/vege.jpg" class="card-img-top" width="100%" height="300" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Vegetariana</h5>
+                                    <p class="card-text">Esta pizza é coberta com uma variedade de legumes, como
+                                        pimentão, cogumelos, cebola, azeitonas, tomate e queijo. É uma opção saudável e
+                                        saborosa.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/frutos.jpg" class="card-img-top" width="100%" height="300" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza Frutos do Mar</h5>
+                                    <p class="card-text">Uma pizza com molho de tomate, frutos do mar como camarões,
+                                        lulas e mexilhões, além de queijo mussarela. É uma escolha deliciosa para os
+                                        amantes de frutos do mar.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--CARDS FIM-->
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Pizzas Doces
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <!--INICIO DOS CARDS-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/chocolate.jpg" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza de Chocolate</h5>
+                                    <p class="card-text">Uma pizza de chocolate é feita com uma base de massa de pizza,
+                                        que é coberta com uma generosa camada de chocolate derretido. Pode ser
+                                        complementada com ingredientes como morangos, bananas, nozes ou marshmallows
+                                        para adicionar sabor e textura.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/frutas.jpg" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza de Frutas</h5>
+                                    <p class="card-text">Esta pizza doce é geralmente feita com uma base de massa de
+                                        pizza ou massa de torta, coberta com creme de queijo doce ou creme de baunilha e
+                                        depois decorada com uma variedade de frutas frescas, como morangos, kiwis, uvas
+                                        e manga. Às vezes, é regada com um toque de mel ou calda de frutas.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/canela.jpg" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pizza de Canela e Açúcar</h5>
+                                    <p class="card-text">Esta é uma pizza doce popular, feita com uma base de massa de
+                                        pizza, que é coberta com uma mistura de canela e açúcar mascavo. Ela é
+                                        geralmente assada até que a cobertura de canela e açúcar caramelizada, criando
+                                        um sabor doce e picante.</p>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM DOS CARDS-->
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Bebidas
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <!--INICIO DOS CARDS-->
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/coca.png" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coca-Cola</h5>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Tamanho</option>
+                                        <option value="1">350ml (lata)</option>
+                                        <option value="2">600ml (garrafa)</option>
+                                        <option value="3">2l (garrafa)</option>
+                                      </select>
+                                      <br>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/h2o.jpg" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">H2OH!</h5>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Selecione o Sabor</option>
+                                        <option value="1">Limão</option>
+                                        <option value="2">Citrus</option>
+                                        <option value="3">Limoneto</option>
+                                      </select>
+                                      <br>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card text-center">
+                                <img src="imgs/sucos-diferentes.jpg" class="card-img-top" width="100%" height="300"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Suco Natural</h5>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Selecione o Sabor</option>
+                                        <option value="1">Morango</option>
+                                        <option value="2">Laranja</option>
+                                        <option value="3">Abacaxi com Hortelã</option>
+                                      </select>
+                                      <br>
+                                    <a href="#" class="btn btn-danger">PEÇA AGORA</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM DOS CARDS-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
